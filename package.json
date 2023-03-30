@@ -72,6 +72,9 @@
     "imagemin-mozjpeg": "^8.0.0",
     "nunjucks": "^3.2.3",
     "postcss": "^8.4.19",
-    "sass": "^1.56.2"
+    "sass": "^1.56.2",
+    "gulp-minify": "*",
+    "gulp-clean": "*",
+    "gulp-clean-css": "*"
   }
 }
