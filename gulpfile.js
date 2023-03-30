@@ -148,8 +148,12 @@ function compileToHTML() {
 }
 
 function cleanJS() {
-  return gulp.src('./assets/js/*min.js', {read: false})
-        .pipe(clean());
+  return gulp.src('./assets/js/*min.js', { read: false })
+    .pipe(clean());
+}
+function cleanCSS() {
+  return gulp.src('./assets/css/min/*.css', { read: false })
+    .pipe(clean());
 }
 
 // function minJS() {
@@ -161,12 +165,14 @@ function cleanJS() {
 function minCSS() {
   return gulp.src('./assets/css/*.css')
     .pipe(cleanCss())
-    .pipe(gulp.dest('./assets/css'));
+    .pipe(gulp.dest('./assets/css/min'));
 }
 
 function watching() {
   compileToSCSS();
   compileToHTML();
+  cleanCSS();
+  minCSS();
   /**
    * BrowserSync initialization
    * @type {Object}
@@ -217,6 +223,6 @@ Object.assign(exports, {
   image,
   scss: compileToSCSS,
   html: compileToHTML,
-  dist: parallel(folder, compileToSCSS, compileToHTML, minCSS),
+  dist: parallel(folder, compileToSCSS, compileToHTML,cleanCSS,  minCSS),
   default: watching
 });
