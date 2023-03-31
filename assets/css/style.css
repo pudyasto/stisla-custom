@@ -1334,7 +1334,7 @@ table tr:hover .table-links {
   font-size: 12px;
 }
 .badge.badge-warning {
-  color: #fff;
+  color: #212529;
 }
 .badge.badge-primary {
   background-color: #1565C0;
@@ -1889,7 +1889,7 @@ h6 .badge {
   left: 0;
   width: 100%;
   height: 115px;
-  background-color: #1565C0;
+  background-color: #0c488c;
   z-index: -1;
 }
 
@@ -3497,7 +3497,7 @@ body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active a {
   color: #fff;
 }
 body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-menu li a {
-  color: #74aef0;
+  color: #D5E7F6;
 }
 body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-menu li a:hover {
   background-color: #1565C0;
