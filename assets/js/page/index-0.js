@@ -73,8 +73,8 @@ $('#visitorMap').vectorMap(
 });
 
 // weather
-getWeather();
-setInterval(getWeather, 600000);
+// getWeather();
+// setInterval(getWeather, 600000);
 
 function getWeather() {
   $.simpleWeather({

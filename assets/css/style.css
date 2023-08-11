@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, ul:not(.list-unstyled), ol {
-  line-height: 28px;
+  line-height: 15px;
 }
 
 .shadow {
@@ -174,7 +174,7 @@ p, ul:not(.list-unstyled), ol {
 }
 
 .text-muted {
-  color: #98a6ad !important;
+  color: #526168 !important;
 }
 
 /* 3.2 Form */
@@ -934,7 +934,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .card.card-statistic-1 .card-header h4, .card.card-statistic-2 .card-header h4 {
   line-height: 1.2;
-  color: #98a6ad;
+  color: #526168;
 }
 .card.card-statistic-1 .card-body, .card.card-statistic-2 .card-body {
   padding-top: 0;
@@ -1871,7 +1871,7 @@ h6 .badge {
 /* 3.18 Navbar */
 .navbar {
   height: 70px;
-  left: 250px;
+  left: 220px;
   right: 5px;
   position: absolute;
   z-index: 890;
@@ -2182,7 +2182,7 @@ h6 .badge {
   color: #191d21 !important;
   padding: 10px 20px;
   line-height: 20px;
-  color: #98a6ad;
+  color: #526168;
 }
 .dropdown-menu.dropdown-menu-sm a {
   font-size: 14px;
@@ -3004,7 +3004,7 @@ pre {
   position: fixed;
   top: 0;
   height: 100%;
-  width: 250px;
+  width: 220px;
   background-color: #fff;
   z-index: 880;
   left: 0;
@@ -3382,7 +3382,7 @@ body.layout-3 .main-footer {
   position: relative;
   display: flex;
   align-items: center;
-  height: 50px;
+  height: 40px;
   padding: 0 20px;
   width: 100%;
   letter-spacing: 0.3px;
@@ -3396,7 +3396,7 @@ body.layout-3 .main-footer {
 }
 .main-sidebar .sidebar-menu li a i {
   width: 28px;
-  margin-right: 20px;
+  margin-right: 5px;
   text-align: center;
 }
 .main-sidebar .sidebar-menu li a span {
@@ -3443,7 +3443,7 @@ body.layout-3 .main-footer {
 }
 .main-sidebar .sidebar-menu li ul.dropdown-menu li a {
   color: #2f373e;
-  height: 35px;
+  height: 30px;
   padding-left: 65px;
   font-weight: 400;
 }
@@ -3453,7 +3453,7 @@ body.layout-3 .main-footer {
 }
 .main-sidebar .sidebar-menu li ul.dropdown-menu li.active > a {
   color: #005aab;
-  font-weight: 700;
+  font-weight: 600;
 }
 .main-sidebar .sidebar-menu li ul.dropdown-menu li a i {
   margin-top: 1px;
@@ -3464,7 +3464,7 @@ body.layout-3 .main-footer {
 }
 
 .main-content {
-  padding-left: 280px;
+  padding-left: 250px;
   padding-right: 30px;
   padding-top: 80px;
   width: 100%;
@@ -3474,7 +3474,7 @@ body.layout-3 .main-footer {
 .main-footer {
   padding: 20px 30px 20px 280px;
   margin-top: 40px;
-  color: #98a6ad;
+  color: #526168;
   border-top: 1px solid #e3eaef;
   display: inline-block;
   width: 100%;
@@ -3508,7 +3508,7 @@ body:not(.sidebar-mini) .sidebar-style-1 .sidebar-menu li.active ul.dropdown-men
 }
 
 body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a {
-  padding-left: 16px;
+  padding-left: 5px;
   background-color: transparent;
   position: relative;
 }
@@ -3523,7 +3523,7 @@ body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu > li.active > a:before {
   background-color: #005aab;
 }
 body:not(.sidebar-mini) .sidebar-style-2 .sidebar-menu li.active ul.dropdown-menu li a {
-  padding-left: 61px;
+  padding-left: 45px;
   background-color: #fff;
 }
 
